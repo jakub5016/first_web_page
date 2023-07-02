@@ -1,0 +1,60 @@
+body{
+    background-image: url("./bg.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;    
+    background-attachment: fixed;
+
+}
+
+.prowadzacy{
+    color: white;
+    position: fixed;
+    font-size: 20px;
+    background-color: rgb(62, 78, 104);
+    border-width: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+.kandydat{
+    color: white;
+    font-size: 20px;
+    background-color: rgb(155, 52, 45);
+    border-width: 0px;
+    padding: 10px;
+    text-align: center; 
+    margin-top: 8vh;
+    margin-left: 20vw;
+    margin-right: 30px;
+}
+
+
+.student{
+    color: white;
+    font-size: 20px;
+    background-color: rgb(42, 110, 23);
+    border-width: 0px;
+    padding: 10px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.student:hover{
+    background-color: rgba(27, 70, 15, 0.9);
+}
+
+.menu{
+    border: 5px solid;
+    position: absolute;
+    height: 30vh;
+    width: 50vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-width: 0px;
+    color: white;
+    padding: 40px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.6)
+  }
