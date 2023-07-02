@@ -8,35 +8,43 @@ body{
 
 .prowadzacy{
     color: white;
-    position: fixed;
-    font-size: 20px;
+    font-size: 1.2vw;
     background-color: rgb(62, 78, 104);
     border-width: 0px;
-    padding: 10px;
+    padding: 1vw;
     text-align: center;
+}
+
+.prowadzacy:hover{
+    background-color: rgba(43, 54, 71, 0.9);
 }
 
 .kandydat{
     color: white;
-    font-size: 20px;
+    font-size: 1.2vw;
     background-color: rgb(155, 52, 45);
     border-width: 0px;
-    padding: 10px;
+    padding: 1vw;
     text-align: center; 
     margin-top: 8vh;
-    margin-left: 20vw;
-    margin-right: 30px;
+    margin-left: 12vw;
+    margin-right: 3vw;
+    margin-bottom: 3vh;
 }
 
+.kandydat:hover{
+    background-color: rgba(109, 37, 32, 0.9);
+}
 
 .student{
     color: white;
-    font-size: 20px;
+    font-size: 1.2vw;
     background-color: rgb(42, 110, 23);
     border-width: 0px;
-    padding: 10px;
+    padding: 1vw;
     text-align: center;
-    margin-right: 30px;
+    margin-right: 3vw;
+    text-decoration: none;
 }
 
 .student:hover{
@@ -55,6 +63,6 @@ body{
     border-width: 0px;
     color: white;
     padding: 40px;
-    font-size: 30px;
+    font-size: 1.8vw;
     background-color: rgba(0, 0, 0, 0.6)
   }
