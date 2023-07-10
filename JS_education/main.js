@@ -1,3 +1,17 @@
-var number = 1;
+const prompt = require("prompt-sync")();
 
-console.log("Hi");
+const deposit = () => {
+    while (true){
+    const depositAmout = prompt("Enter a deposit ammout: ");
+    const numberDepositAmout =parseFloat(depositAmout);
+    
+        if (isNaN(numberDepositAmout) || numberDepositAmout <=0){
+            console.log("INVALID NUMBER");
+        }
+        else {
+            return numberDepositAmout;
+        }
+    }
+}
+
+const depositAmout = deposit();
